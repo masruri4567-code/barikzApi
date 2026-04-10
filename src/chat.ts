@@ -62,7 +62,7 @@ export function registerChatRoutes(app: Application): void {
         }
       }
 
-      const isAdmin = cleanName.toLowerCase() === 'kazztzyyy';
+      const isAdmin = cleanName.toLowerCase() === 'Barikzz';
       const user: UserProfile = {
         device_id,
         username: cleanName,
