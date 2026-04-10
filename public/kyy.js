@@ -82,8 +82,8 @@
 
   const limitBadge = document.getElementById('limit-badge');
   if (limitBadge) {
-    const usage = parseInt(localStorage.getItem('kayzz_api_key_usage') || '0');
-    const limit = parseInt(localStorage.getItem('kayzz_api_key_limit') || '300');
+    const usage = parseInt(localStorage.getItem('Rikzz_api_key_usage') || '0');
+    const limit = parseInt(localStorage.getItem('Rikzz_api_key_limit') || '300');
     limitBadge.textContent = 'Free: ' + usage + '/' + limit;
   }
 
