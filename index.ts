@@ -23,7 +23,7 @@ app.get('/config', (req: Request, res: Response) => {
         const latest = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf-8'));
         res.json({ creator: latest.settings.creator, ...latest });
     } catch (err: any) {
-        res.status(500).json({ creator: config.settings?.creator || 'ZFloryn-Z', error: 'Internal Server Error' });
+        res.status(500).json({ creator: config.settings?.creator || 'Barikz Developer', error: 'Internal Server Error' });
     }
 });
 
